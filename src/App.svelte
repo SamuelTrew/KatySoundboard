@@ -1,11 +1,19 @@
 <script lang="ts">
   import Tile from './lib/Tile.svelte'
+  const tiles = [
+    {icon: "scissors.svg", music: "test.mp3"},
+    {icon: "hand.svg", music: "test.mp3"},
+    {icon: "wicked.jpg", music: "test.mp3"},
+    {icon: "wheatus.png", music: "test.mp3"},
+    {icon: "boy.svg", music: "test.mp3"},
+    {icon: "where.svg", music: "test.mp3"},
+  ]
 </script>
 
 <main>
   <div class="grid">
-    {#each { length: 9 }, rank}
-      <Tile />
+    {#each tiles as {icon, music}}
+      <Tile icon={icon} music={music} />
     {/each}
   </div>
 </main>
