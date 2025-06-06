@@ -7,20 +7,25 @@
 	let {icon, music}: Props = $props();
    let highlight = $state(false)
 
+   const audio = new Audio(`/music/${music}`)
+   audio.onended = () => {
+      highlight = false
+   }
+   audio.onplay = () => {
+      highlight = true
+   }
+
    const play = () => {
-      const audio = new Audio(`/${music}`)
-      audio.onended = () => {
-         highlight = false
+      if (!audio.paused) {
+         audio.pause()
+      } else {
+         audio.play()
       }
-      audio.onplay = () => {
-         highlight = true
-      }
-      audio.play()
    }
 </script>
 
 <button onclick={play} class={`tile ${highlight ? "highlighted": ""}`}>
-   <img loading="lazy" src={`/${icon}`} alt={icon} width={80} height={80} />
+   <img loading="lazy" src={`/icons/${icon}`} alt={icon} width={80} height={80} />
 </button>
 
 <style lang="scss">

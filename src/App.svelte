@@ -3,16 +3,21 @@
   import Header from './lib/Header.svelte';
 
   const tiles = [
-    {icon: "scissors.svg", music: "test.mp3"},
-    {icon: "hand.svg", music: "test.mp3"},
-    {icon: "wicked.jpg", music: "test.mp3"},
-    {icon: "wheatus.png", music: "test.mp3"},
-    {icon: "boy.svg", music: "test.mp3"},
-    {icon: "where.svg", music: "test.mp3"},
-    {icon: "river.svg", music: "test.mp3"},
-    {icon: "365.svg", music: "test.mp3"},
-    {icon: "espresso.svg", music: "test.mp3"},
-    {icon: "snail.svg", music: "test.mp3"},
+    // {icon: "scissors.svg", music: "test.mp3"},
+    // {icon: "hand.svg", music: "test.mp3"},
+    // {icon: "wicked.jpg", music: "test.mp3"},
+    // {icon: "wheatus.png", music: "test.mp3"},
+    // {icon: "boy.svg", music: "test.mp3"},
+    // {icon: "where.svg", music: "test.mp3"},
+    // {icon: "river.svg", music: "test.mp3"},
+    // {icon: "365.svg", music: "test.mp3"},
+    {icon: "espresso.svg", music: "espresso.mp3"},
+    {icon: "coke.png", music: "coke.m4a"},
+    {icon: "snowflake.png", music: "chasing-cars-scottish.mp3"},
+    {icon: "cat.png", music: "meow.mp3"},
+    {icon: "wicked.jpg", music: "wicked.mp3"},
+    {icon: "egypt.png", music: "denial.mp3"},
+    {icon: "boq.png", music: "boq.mp3"}
   ]
 </script>
 
