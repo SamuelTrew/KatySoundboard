@@ -3,13 +3,9 @@
   import Header from './lib/Header.svelte';
 
   const tiles = [
-    // {icon: "scissors.svg", music: "test.mp3"},
-    // {icon: "hand.svg", music: "test.mp3"},
-    // {icon: "wheatus.png", music: "test.mp3"},
-    // {icon: "boy.svg", music: "test.mp3"},
-    // {icon: "where.svg", music: "test.mp3"},
     {icon: "espresso.svg", music: "espresso.mp3", authors: ["Sam", "Newman", "WeiWei", "Lav"]},
     {icon: "coke.png", music: "coke.m4a", authors: ["Yiming"]},
+    {icon: "boy.svg", music: "boy.mp3", authors: ["Newman", "Sam", "Hao"]},
     {icon: "snowflake.png", music: "chasing-cars-scottish.mp3", authors: ["Will"]},
     {icon: "cat.png", music: "meow.mp3", authors: ["Hao", "Sam", "Newman"]},
     {icon: "wicked.jpg", music: "wicked.mp3", authors: ["Lav"]},
@@ -17,7 +13,8 @@
     {icon: "boq.png", music: "boq.mp3", authors: ["Zailah"]},
     {icon: "dirt.png", music: "dirtbag.mp3", authors: ["Newman", "Hao"]},
     {icon: "where.svg", music: "where-are-you.mp3", authors: ["Newman", "Hao", "Lav", "Sam"]},
-    {icon: "girl.png", music: "girlfriend.m4a", authors: ["Newman"]}
+    {icon: "girl.png", music: "girlfriend.m4a", authors: ["Newman"]},
+    {icon: "scissors.svg", music: "suffocation.mp3", authors: ["Sam", "Hao", "Newman"]},
   ]
 </script>
 
