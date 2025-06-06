@@ -29,11 +29,11 @@
 <style lang="scss">
    .header {
       background-color: hotpink;
-      height: 3rem;
       display: flex;
       flex-direction: row;
       justify-content: space-between;
       align-items: center;
+      padding: 0.25rem 1rem;
    }
 
    .title {

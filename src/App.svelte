@@ -5,19 +5,19 @@
   const tiles = [
     // {icon: "scissors.svg", music: "test.mp3"},
     // {icon: "hand.svg", music: "test.mp3"},
-    // {icon: "wicked.jpg", music: "test.mp3"},
     // {icon: "wheatus.png", music: "test.mp3"},
     // {icon: "boy.svg", music: "test.mp3"},
     // {icon: "where.svg", music: "test.mp3"},
-    // {icon: "river.svg", music: "test.mp3"},
-    // {icon: "365.svg", music: "test.mp3"},
-    {icon: "espresso.svg", music: "espresso.mp3"},
-    {icon: "coke.png", music: "coke.m4a"},
-    {icon: "snowflake.png", music: "chasing-cars-scottish.mp3"},
-    {icon: "cat.png", music: "meow.mp3"},
-    {icon: "wicked.jpg", music: "wicked.mp3"},
-    {icon: "egypt.png", music: "denial.mp3"},
-    {icon: "boq.png", music: "boq.mp3"}
+    {icon: "espresso.svg", music: "espresso.mp3", authors: ["Sam", "Newman", "WeiWei", "Lav"]},
+    {icon: "coke.png", music: "coke.m4a", authors: ["Yiming"]},
+    {icon: "snowflake.png", music: "chasing-cars-scottish.mp3", authors: ["Will"]},
+    {icon: "cat.png", music: "meow.mp3", authors: ["Hao", "Sam", "Newman"]},
+    {icon: "wicked.jpg", music: "wicked.mp3", authors: ["Lav"]},
+    {icon: "egypt.png", music: "denial.mp3", authors: ["Erin", "Nick"]},
+    {icon: "boq.png", music: "boq.mp3", authors: ["Zailah"]},
+    {icon: "dirt.png", music: "dirtbag.mp3", authors: ["Newman", "Hao"]},
+    {icon: "where.svg", music: "where-are-you.mp3", authors: ["Newman", "Hao", "Lav", "Sam"]},
+    {icon: "girl.png", music: "girlfriend.m4a", authors: ["Newman"]}
   ]
 </script>
 
@@ -25,8 +25,8 @@
   <Header />
   <div class="app-body">
     <div class="grid">
-      {#each tiles as {icon, music}}
-        <Tile icon={icon} music={music} />
+      {#each tiles as tile}
+        <Tile {...tile} />
       {/each}
     </div>
   </div>
