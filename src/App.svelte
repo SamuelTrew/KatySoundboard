@@ -3,11 +3,11 @@
   import Header from './lib/Header.svelte';
 
   const tiles = [
-    {icon: "espresso.svg", music: "espresso.mp3", authors: ["Sam", "Newman", "WeiWei", "Lav"]},
+    {icon: "espresso.svg", music: "espresso.mp3", authors: ["Sam", "Newman", "WeiWei", "Lav", "Hao"]},
     {icon: "coke.png", music: "coke.m4a", authors: ["Yiming"]},
-    {icon: "boy.svg", music: "boy.mp3", authors: ["Newman", "Sam", "Hao"]},
+    {icon: "boy.svg", music: "boy.mp3", authors: ["Newman", "Sam", "WeiWei", "Hao"]},
     {icon: "snowflake.png", music: "chasing-cars-scottish.mp3", authors: ["Will"]},
-    {icon: "cat.png", music: "meow.mp3", authors: ["Hao", "Sam", "Newman"]},
+    {icon: "cat.png", music: "meow.mp3", authors: ["WeiWei", "Hao", "Sam", "Newman"]},
     {icon: "wicked.jpg", music: "wicked.mp3", authors: ["Lav"]},
     {icon: "egypt.png", music: "denial.mp3", authors: ["Erin", "Nick"]},
     {icon: "boq.png", music: "boq.mp3", authors: ["Zailah"]},
